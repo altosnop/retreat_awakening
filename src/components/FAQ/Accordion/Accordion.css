@@ -1,0 +1,40 @@
+.accordion {
+    border-bottom: 0.5px solid black;
+}
+
+.accordion-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 23px;
+    width: 100%;
+    padding: 18px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.accordion-title:hover {
+    background-color: #F0F0F0;
+}
+
+.accordion-content {
+    padding: 25px;
+    line-height: 1.4;
+    font-size: 20px;
+    color: #3B3B3B;
+    width: 85%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 430px) {
+    .accordion-title {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 380px) {
+    .accord_title {
+        width: 90%;
+        font-size: 18px;
+    }
+}

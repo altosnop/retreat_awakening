@@ -1,0 +1,142 @@
+.cards_article {
+    font-size: 40px;
+    padding: 45px;
+    text-align: center;
+}
+
+.cards_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+.retreat_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3%;
+}
+
+.retreat_card img {
+    width: 128px;
+    margin-bottom: 12%;
+    transition: all 0.2s;
+}
+
+.retreat_card img:hover {
+    transform: scale(1.1);
+}
+
+.retreat_card p {
+    /* font-family: 'Merriweather', serif; */
+    font-family: 'Philosopher', sans-serif;
+    display: inline-block;
+    width: 370px;
+    font-size: 27px;
+    text-align: center;
+    color: #000;
+}
+
+.second_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3%;
+}
+
+.second_card img {
+    width: 370px;
+    margin-bottom: 8%;
+    transition: all 0.2s;
+}
+
+.second_card img:hover {
+    transform: scale(1.2);
+    box-shadow: 1px 3px 18px 3px rgba(13, 28, 39, 0.2);
+}
+
+.second_card h3 {
+    display: inline-block;
+    width: 370px;
+    font-size: 27px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 7%;
+}
+
+.second_card p {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    display: inline-block;
+    width: 370px;
+    font-size: 23px;
+    color: #000;
+}
+
+@media (max-width: 960px) {
+    .retreat_card {
+        margin: 6%;
+    }
+}
+
+@media (max-width: 835px) {
+    .cards_article {
+        padding: 0;
+    }
+
+    .second_card {
+        margin: 6%;
+    }
+}
+
+@media (max-width: 680px) {
+    .second_card p {
+        font-size: 22px;
+    }
+
+    .retreat_card p {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 430px) {
+    .retreat_card p {
+        font-size: 22px;
+    }
+
+    .second_card img {
+        width: 330px;
+    }
+
+    .second_card h3 {
+        font-size: 24px;
+        width: 80%;
+    }
+
+    .second_card p {
+        font-size: 20px;
+        width: 93%;
+    }
+}
+
+@media (max-width: 380px) {
+    .retreat_card p {
+        font-size: 21px;
+        width: 250px;
+    }
+
+    .second_card img {
+        width: 290px;
+    }
+
+    .second_card h3 {
+        font-size: 22px;
+        width: 80%;
+    }
+
+    .second_card p {
+        font-size: 20px;
+        width: 93%;
+    }
+}

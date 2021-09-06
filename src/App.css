@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Noto Sans JP', sans-serif; */
+    font-family: 'Philosopher', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    /* font-family: 'Noto Sans JP', sans-serif; */
+    font-family: 'Philosopher', sans-serif;
+}
+
+body {
+    background-color: #EEE6FF;
+    /* background: linear-gradient(177.26deg, #bcd9eb 0%, #e6f4f4 100%); */
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+@media (max-width: 680px) {
+
+    .container {
+        width: 90%;
+    }
+}
