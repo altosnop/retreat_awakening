@@ -35,13 +35,13 @@ const Pricing = () => {
             <div className="price_text_wrapper">
               <span className="text">Полная стоимость</span>
               <span id="red_text" className="text_price">
-                1875 €
+                1875€
               </span>
             </div>
             <div className="ver_line"></div>
             <div className="price_text_wrapper">
               <span className="text">Со скидкой</span>
-              <span className="text_price">1250 €</span>
+              <span className="text_price">1250€</span>
             </div>
           </div>
           <a className="price_btn" href="https://t.me/margo_khostikyan">
@@ -60,26 +60,26 @@ const Pricing = () => {
               <td>
                 Индивидуальная сессия по вашему запросу у Наталии или Марго
               </td>
-              <td>150 €</td>
+              <td>150€</td>
             </tr>
             <tr>
               <td>
                 Регрессия / Ченнелинг / Благословение желания / Лечебная
                 практика
               </td>
-              <td>150 €</td>
+              <td>150€</td>
             </tr>
             <tr>
               <td>Расклад карт ТАРО по одному вашему запросу (45 минут)</td>
-              <td>80 €</td>
+              <td>80€</td>
             </tr>
             <tr>
               <td>Общий оздоровительный массаж всего тела (1 час)</td>
-              <td>30 €</td>
+              <td>30€</td>
             </tr>
             <tr>
               <td>Остеопатия: комплекс терапии "Юмейхо" (1,5 часа)</td>
-              <td>50 €</td>
+              <td>50€</td>
             </tr>
           </tbody>
         </table>
@@ -92,59 +92,59 @@ const Pricing = () => {
             </tr>
             <tr>
               <td>Раскрытие чакр</td>
-              <td>150 €</td>
+              <td>150€</td>
             </tr>
             <tr>
               <td>Рейки Фам-Рей 1 ступень</td>
-              <td>100 €</td>
+              <td>100€</td>
             </tr>
             <tr>
               <td>Рейки Фам-Рей 2 ступень</td>
-              <td>150 €</td>
+              <td>150€</td>
             </tr>
             <tr>
               <td>Рейки Фам-Рей 3 ступень</td>
-              <td>200 €</td>
+              <td>200€</td>
             </tr>
             <tr>
               <td>Рейки Фам-Рей 1-3 ступени</td>
-              <td>400 €</td>
+              <td>400€</td>
             </tr>
             <tr>
               <td>Рейки Фам-Рей 4-5 ступени</td>
-              <td>200 €</td>
+              <td>200€</td>
             </tr>
             <tr>
               <td>Рейки Фам-Рей 6-7 ступени</td>
-              <td>200 €</td>
+              <td>200€</td>
             </tr>
             <tr>
               <td>Рейки Фам-Рей 1-7 ступени</td>
-              <td>750 €</td>
+              <td>750€</td>
             </tr>
             <tr>
               <td>Тибетские Жреческие Практики 1 ступень</td>
-              <td>150 €</td>
+              <td>150€</td>
             </tr>
             <tr>
               <td>Тибетские Жреческие Практики 2 ступень</td>
-              <td>150 €</td>
+              <td>150€</td>
             </tr>
             <tr>
               <td>Тибетские Жреческие Практики 3 ступень</td>
-              <td>170 €</td>
+              <td>170€</td>
             </tr>
             <tr>
               <td>Тибетские Жреческие Практики 4 ступень</td>
-              <td>170 €</td>
+              <td>170€</td>
             </tr>
             <tr>
               <td>Тибетские Жреческие Практики 5 ступень</td>
-              <td>200 €</td>
+              <td>200€</td>
             </tr>
             <tr>
               <td>Тибетские Жреческие Практики 1-5 ступени</td>
-              <td>650 €</td>
+              <td>650€</td>
             </tr>
           </tbody>
         </table>

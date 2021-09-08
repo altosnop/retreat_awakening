@@ -9,6 +9,13 @@
     text-align: center;
 }
 
+.accommodation_article {
+    font-size: 30px;
+    padding-bottom: 3%;
+    text-align: center;
+    color: #3E0035;
+}
+
 .accommod_text {
     line-height: 1.4;
     margin-bottom: 5%;
@@ -22,6 +29,11 @@
     .accommod_text {
         font-size: 23px;
     }
+    
+    .accommodation_article {
+        font-size: 28px;
+        padding-bottom: 2%;
+    }
 
     .accommod_block {
         width: 87%;
@@ -31,6 +43,11 @@
 @media (max-width: 430px) {
     .accommod_text {
         font-size: 19px;
+    }
+
+    .accommodation_article {
+        font-size: 23px;
+        padding-bottom: 7%;
     }
 
     .accommod_block {

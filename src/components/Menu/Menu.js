@@ -12,25 +12,39 @@ const Menu = () => {
       <div className="wrapper">
         <ul>
           <li>
-            <a href="#program">Программа</a>
+            <a className="mob_menu_link" href="#program">
+              Программа
+            </a>
           </li>
           <li>
-            <a href="#timetable">Расписание</a>
+            <a className="mob_menu_link" href="#timetable">
+              Расписание
+            </a>
           </li>
           <li>
-            <a href="#place">Локация</a>
+            <a className="mob_menu_link" href="#place">
+              Локация
+            </a>
           </li>
           <li>
-            <a href="#leaders">О мастерах</a>
+            <a className="mob_menu_link" href="#leaders">
+              О мастерах
+            </a>
           </li>
           <li>
-            <a href="#accommodation">Проживание</a>
+            <a className="mob_menu_link" href="#accommodation">
+              Проживание
+            </a>
           </li>
           <li>
-            <a href="#price">Стоимость</a>
+            <a className="mob_menu_link" href="#price">
+              Стоимость
+            </a>
           </li>
           <li>
-            <a href="#faq">FAQ</a>
+            <a className="mob_menu_link" href="#faq">
+              FAQ
+            </a>
           </li>
         </ul>
       </div>
