@@ -10,7 +10,7 @@ const Pricing = () => {
       <div className="container">
         <div className="price_main">
           <div className="price_content">
-            <h3>Стоимость программи + проживание</h3>
+            <h3>Стоимость программы + проживание</h3>
             <ul>
               <li>
                 Ежедневные трансформационные практики по оздоровлению Души и
