@@ -17,7 +17,7 @@ import Loc_img_12 from "../../assets/images/location_images/loc_img_12.jpg";
 const Location = () => {
   return (
     <>
-      <div className="location" id="place">
+      <div className="location loc_back" id="place">
         <h2>ЧИФТЛИК</h2>
         <p>Погрузитесь во вдохновляющую атмосферу волшебного залива Чифтлик</p>
       </div>

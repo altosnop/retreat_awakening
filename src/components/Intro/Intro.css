@@ -24,7 +24,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 5%;
+    background-color: #917FA1;
 }
 
 .align_center {
@@ -37,7 +37,13 @@
     line-height: 1.5;
     font-weight: 500;
     margin: 3% 20% 3%;
-    font-family: 'Caveat', cursive;
+    font-family: 'Lobster', cursive;
+    color: #fff;
+}
+
+.intro_small_text span {
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
 }
 
 .intro_svg {
@@ -45,27 +51,33 @@
     width: 110px;
 }
 
-@media (max-width: 770px) {
-    iframe {
+@media (max-width: 850px) {
+    video {
         height: 360px;
     }
 }
 
 @media (max-width: 690px) {
-    iframe {
-        height: 300px;
+    video {
+        height: 280px;
     }
 }
 
 @media (max-width: 500px) {
-    iframe {
-        height: 260px;
+    video {
+        height: 225px;
     }
 }
 
 @media (max-width: 400px) {
-    iframe {
+    video {
         height: 200px;
+    }
+}
+
+@media (max-width: 400px) {
+    video {
+        height: 170px;
     }
 }
 
@@ -84,8 +96,8 @@
     }
 
     .intro_small_text {
-        font-size: 31px;
-        margin: 10% 0%;
+        font-size: 27px;
+        margin: 10% 5%;
     }
 
     .iframe_wrapper {

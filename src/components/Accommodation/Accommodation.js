@@ -17,13 +17,13 @@ import Loc_img_12 from "../../assets/images/accomm_images/accomm_img_12.JPG";
 const Accommodation = () => {
   return (
     <>
-      <h2 id="accommodation" className="article">
-        Проживание
-      </h2>
-      <div className="container">
-        <h2 id="accommodation" className="accommodation_article">
-          Аларга: наш семейный ретрит-отель.
+      <div className="location accomm_back" id="accommodation">
+        <h2>
+          Проживание
         </h2>
+        <p>Аларга: наш семейный ретрит-отель.</p>
+      </div>
+      <div className="container">
         <p className="location_text">
           Сюда художники приезжают писать картины, остеопаты проводят
           оздоровительные йога-ретриты, врачи - терапевтические поездки, а

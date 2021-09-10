@@ -9,6 +9,7 @@ import Location from './components/Location/Location';
 import Pricing from './components/Pricing/Pricing';
 import Program from './components/Program/Program';
 import RetreatCards from './components/RetreatCards/RetreatCards';
+import RetreatIdea from './components/RetreatIdea/RetreatIdea';
 import Timetable from './components/Timetable/Timetable';
 
 function App() {
@@ -16,10 +17,11 @@ function App() {
     <>
       <Header/>
       <Intro/>
-      <Program/>
       <RetreatCards/>
       <Timetable/>
       <Location/>
+      <RetreatIdea/>
+      <Program/>
       <About/>
       <Accommodation/>
       <Pricing/>
