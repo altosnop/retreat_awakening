@@ -44,10 +44,14 @@ const Timetable = () => {
             </tr>
             <tr>
               <td className='table_time'>20:00</td>
+              <td className='table_text'>Легкий ужин</td>
+            </tr>
+            <tr>
+              <td className='table_time'>20:30</td>
               <td className='table_text'>Отдыхаем / Гуляем / Общаемся друг с другом</td>
             </tr>
             <tr>
-              <td className='table_time'>22:00</td>
+              <td className='table_time'>22:30</td>
               <td className='table_text'>Сон</td>
             </tr>
           </tbody>
