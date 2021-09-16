@@ -17,7 +17,7 @@
 .footer_contacts {
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
 }
 
 .footer_contacts a {
@@ -35,6 +35,14 @@
 
 .footer_line {
     color: #fff;
+}
+
+.footer_contact_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 @media (max-width: 430px) {

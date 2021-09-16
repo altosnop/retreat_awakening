@@ -71,7 +71,7 @@
   font-size: 35px;
 }
 
-@media (max-width: 1388px) {
+@media (max-width: 1390px) {
   .about_block_wrapper {
     flex-direction: column;
     align-items: center;
