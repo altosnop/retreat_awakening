@@ -35,6 +35,17 @@ const RetreatIdea = () => {
         Добро пожаловать в нашу большую и дружную
         <b>семью единомышленников</b>! Почувствуйте себя Дома!
       </p>
+      <div className="iframe_wrapper">
+        <iframe
+          width="832"
+          height="468"
+          src="https://www.youtube.com/embed/jaRzQJjzR4s?autoplay=1&mute=1&loop=1&playlist=jaRzQJjzR4s"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
     </div>
   );
 };

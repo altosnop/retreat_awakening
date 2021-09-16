@@ -52,31 +52,31 @@
 }
 
 @media (max-width: 850px) {
-    video {
+    video, iframe {
         height: 360px;
     }
 }
 
 @media (max-width: 690px) {
-    video {
+    video, iframe {
         height: 280px;
     }
 }
 
 @media (max-width: 500px) {
-    video {
+    video, iframe {
         height: 225px;
     }
 }
 
 @media (max-width: 400px) {
-    video {
+    video, iframe {
         height: 200px;
     }
 }
 
 @media (max-width: 400px) {
-    video {
+    video, iframe {
         height: 170px;
     }
 }

@@ -15,7 +15,7 @@ const Intro = () => {
           руководством ваших Духовных Наставников.
         </p>
         <div className="iframe_wrapper">
-          <video width="832" height="468" autoPlay loop muted>
+          <video className="lazy" width="832" height="468" autoPlay loop muted>
             <source src={Video} type='video/mp4'/>
           </video>
         </div>

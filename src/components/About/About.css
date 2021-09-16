@@ -71,6 +71,13 @@
   font-size: 35px;
 }
 
+@media (max-width: 1380px) {
+  .about_block_wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 @media (max-width: 1360px) {
   .about {
     background-position: 0 -100px;

@@ -15,7 +15,7 @@ const About = () => {
       </div>
       <div className="about_block_wrapper">
         <div className="about_block">
-          <img src={Margo} alt="master img" />
+          <img className="lazy" src={Margo} data-src={Margo} alt="master img" />
           <h4>
             <span className="about_symbol">✦</span> Марго Хостикян{" "}
             <span className="about_symbol">✦</span>
@@ -60,7 +60,7 @@ const About = () => {
         </div>
         <div className="about_line"></div>
         <div className="about_block">
-          <img src={Natasha} alt="master img" />
+          <img className="lazy" src={Natasha} data-src={Natasha} alt="master img" />
           <h4>
             <span className="about_symbol">✦</span> Наталия Ларченко{" "}
             <span className="about_symbol">✦</span>
@@ -98,9 +98,9 @@ const About = () => {
         </div>
       </div>
       <div className="about_photos">
-        <img src={Consult} alt="Consult" />
-        <img src={Group} alt="Group" />
-        <img src={Lil_group} alt="Lil group" />
+        <img className="lazy" src={Consult} data-src={Consult} alt="Consult" />
+        <img className="lazy" src={Group} data-src={Group} alt="Group" />
+        <img className="lazy" src={Lil_group} data-src={Lil_group} alt="Lil group" />
       </div>
     </>
   );

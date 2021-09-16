@@ -50,18 +50,18 @@ const Location = () => {
         </p>
       </div>
       <div className="location_image_block">
-        <img src={Loc_img_1} alt="location" />
-        <img src={Loc_img_2} alt="location" />
-        <img src={Loc_img_3} alt="location" />
-        <img src={Loc_img_4} alt="location" />
-        <img src={Loc_img_5} alt="location" />
-        <img src={Loc_img_6} alt="location" />
-        <img src={Loc_img_7} alt="location" />
-        <img src={Loc_img_8} alt="location" />
-        <img src={Loc_img_9} alt="location" />
-        <img src={Loc_img_10} alt="location" />
-        <img src={Loc_img_11} alt="location" />
-        <img src={Loc_img_12} alt="location" />
+        <img className="lazy" src={Loc_img_1} data-src={Loc_img_1} alt="location" />
+        <img className="lazy" src={Loc_img_2} data-src={Loc_img_2} alt="location" />
+        <img className="lazy" src={Loc_img_3} data-src={Loc_img_3} alt="location" />
+        <img className="lazy" src={Loc_img_4} data-src={Loc_img_4} alt="location" />
+        <img className="lazy" src={Loc_img_5} data-src={Loc_img_5} alt="location" />
+        <img className="lazy" src={Loc_img_6} data-src={Loc_img_6} alt="location" />
+        <img className="lazy" src={Loc_img_7} data-src={Loc_img_7} alt="location" />
+        <img className="lazy" src={Loc_img_8} data-src={Loc_img_8} alt="location" />
+        <img className="lazy" src={Loc_img_9} data-src={Loc_img_9} alt="location" />
+        <img className="lazy" src={Loc_img_10} data-src={Loc_img_10} alt="location" />
+        <img className="lazy" src={Loc_img_11} data-src={Loc_img_11} alt="location" />
+        <img className="lazy" src={Loc_img_12} data-src={Loc_img_12} alt="location" />
       </div>
     </>
   );

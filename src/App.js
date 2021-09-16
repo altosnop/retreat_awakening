@@ -12,7 +12,10 @@ import RetreatCards from './components/RetreatCards/RetreatCards';
 import RetreatIdea from './components/RetreatIdea/RetreatIdea';
 import Timetable from './components/Timetable/Timetable';
 
+import yall from 'yall-js';
+
 function App() {
+  document.addEventListener("DOMContentLoaded", yall);
   return (
     <>
       <Header/>

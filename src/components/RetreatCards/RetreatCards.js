@@ -18,25 +18,25 @@ const RetreatCards = () => {
         <h2 className="article">На ретрите мы будем:</h2>
         <div className="cards_wrapper">
           <div className="retreat_card">
-            <img src={Salad} alt="salad" />
+            <img className="lazy" src={Salad} data-src={Salad} alt="salad" />
             <p>Питаться здоровой пищей из натуральных продуктов</p>
           </div>
           <div className="retreat_card">
-            <img src={Wave} alt="wave" />
+            <img className="lazy" src={Wave} data-src={Wave} alt="wave" />
             <p>
               Плавать в чистейшем море, загорать, отдыхать и наполняться
               бодростью на год вперёд
             </p>
           </div>
           <div className="retreat_card">
-            <img src={Heart} alt="yacht" />
+            <img className="lazy" src={Heart} data-src={Heart} alt="yacht" />
             <p>
               Настраивать правильную работу всех наших органов и систем.
               Повышать адаптивность тела и свою стрессоустойчивость
             </p>
           </div>
           <div className="retreat_card">
-            <img src={Lotus} alt="salad" />
+            <img className="lazy" src={Lotus} data-src={Lotus} alt="salad" />
             <p>
               Заниматься энергетическими практиками и медитациями, а также
               получать инициации на привлечение изобилия во все аспекты нашей
@@ -44,14 +44,14 @@ const RetreatCards = () => {
             </p>
           </div>
           <div className="retreat_card">
-            <img src={Feedback} alt="salad" />
+            <img className="lazy" src={Feedback} data-src={Feedback} alt="salad" />
             <p>
               Прорабатывать свои страхи, негативные эмоции, деструктивные модели
               поведения
             </p>
           </div>
           <div className="retreat_card">
-            <img src={Amulet} alt="salad" />
+            <img className="lazy" src={Amulet} data-src={Amulet} alt="salad" />
             <p>
               Заряжать амулеты на здоровье, успешность, уверенность в себе и
               свою самореализацию
@@ -62,7 +62,7 @@ const RetreatCards = () => {
       <h2 className="article">А также:</h2>
       <div className="cards_wrapper">
         <div className="second_card">
-          <img src={Yacht} alt="yacht" />
+          <img className="lazy" src={Yacht} data-src={Yacht} alt="yacht" />
           <h3>Морская прогулка на корабле в соседние бухты</h3>
           <p>
             Нас ждет купание в затерянных лагунах, медитативные практики на
@@ -71,7 +71,7 @@ const RetreatCards = () => {
           </p>
         </div>
         <div className="second_card">
-          <img src={Consult} alt="yacht" />
+          <img className="lazy" src={Consult} data-src={Consult} alt="yacht" />
           <h3>Личные консультации и инициации в эзотерические практики</h3>
           <p>
             В свободное от занятий время вы сможете пройти индивидуальную сессию
@@ -80,7 +80,7 @@ const RetreatCards = () => {
           </p>
         </div>
         <div className="second_card">
-          <img src={Communicate} alt="yacht" />
+          <img className="lazy" src={Communicate} data-src={Communicate} alt="yacht" />
           <h3>Общение с единомышленниками</h3>
           <p>
             Сложно соблюдать режим дня, правильно питаться и работать над собой
