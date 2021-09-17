@@ -13,6 +13,7 @@ import RetreatIdea from './components/RetreatIdea/RetreatIdea';
 import Timetable from './components/Timetable/Timetable';
 
 import yall from 'yall-js';
+import Rules from './components/Rules/Rules';
 
 function App() {
   document.addEventListener("DOMContentLoaded", yall);
@@ -28,6 +29,7 @@ function App() {
       <About/>
       <Accommodation/>
       <Pricing/>
+      <Rules/>
       <FAQ/>
       <Footer/>
     </>

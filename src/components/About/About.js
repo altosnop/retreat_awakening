@@ -3,9 +3,6 @@ import "./About.css";
 
 import Margo from "../../assets/images/masters/Margo.jpeg";
 import Natasha from "../../assets/images/masters/Natasha.jpg";
-import Consult from "../../assets/images/about_3_photos/consult.jpg";
-import Group from "../../assets/images/about_3_photos/group.jpg";
-import Lil_group from "../../assets/images/about_3_photos/lil_group.jpg";
 
 const About = () => {
   return (
@@ -96,11 +93,6 @@ const About = () => {
             человек, если у него есть желание.
           </p>
         </div>
-      </div>
-      <div className="about_photos">
-        <img className="lazy" src={Consult} data-src={Consult} alt="Consult" />
-        <img className="lazy" src={Group} data-src={Group} alt="Group" />
-        <img className="lazy" src={Lil_group} data-src={Lil_group} alt="Lil group" />
       </div>
     </>
   );
